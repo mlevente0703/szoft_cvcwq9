@@ -1,6 +1,6 @@
 ﻿namespace Fibonacci
 {
-    partial class Form1
+    partial class fibo
     {
         /// <summary>
         ///  Required designer variable.
@@ -36,19 +36,22 @@
             // 
             dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(358, 1);
+            dataGridView1.Location = new Point(511, 2);
+            dataGridView1.Margin = new Padding(4, 5, 4, 5);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 62;
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(421, 399);
+            dataGridView1.Size = new Size(601, 665);
             dataGridView1.TabIndex = 0;
             // 
-            // Form1
+            // fibo
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 402);
+            ClientSize = new Size(1143, 670);
             Controls.Add(dataGridView1);
-            Name = "Form1";
+            Margin = new Padding(4, 5, 4, 5);
+            Name = "fibo";
             Text = "Form1";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();

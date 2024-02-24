@@ -12,7 +12,7 @@ namespace Pascal
             int m = 40;
             for (int sor = 0; sor < 10; sor++)
             {
-                for (int oszlop = 0; oszlop < sor + 1; oszlop++)
+                for (int oszlop = 0; oszlop < sor +1; oszlop++)
                 {
 
                     Button button = new Button();

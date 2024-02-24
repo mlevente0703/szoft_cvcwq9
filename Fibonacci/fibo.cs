@@ -1,8 +1,8 @@
 namespace Fibonacci
 {
-    public partial class Form1 : Form
+    public partial class fibo : Form
     {
-        public Form1()
+        public fibo()
         {
             InitializeComponent();
         }
@@ -31,5 +31,7 @@ namespace Fibonacci
             if (n == 1) return 1;
             return Fibonacci(n - 1) + Fibonacci(n - 2);
         }
+
+
     }
 }
