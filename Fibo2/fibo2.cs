@@ -6,5 +6,10 @@ namespace Fibo2
         {
             InitializeComponent();
         }
+
+        private void fibo2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -37,7 +37,7 @@
             ClientSize = new Size(800, 450);
             Name = "fibo2";
             Text = "Form1";
-            Load += this.fibo2_Load;
+            Load += fibo2_Load;
             ResumeLayout(false);
         }
 
