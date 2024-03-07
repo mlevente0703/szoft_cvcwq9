@@ -25,7 +25,7 @@ namespace kamat
         {
             double hitelossz = double.Parse(tbHitel.Text);
 
-            List<sor> sorok = new List<sor>();
+            List<sor> sorok = new();
 
             for (int i = 0; i < 10; i++)
             {
